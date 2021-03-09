@@ -13,11 +13,17 @@ This program uses value iteration (MDPs) to have autonomous cars go from a start
 
 ## Input file:
 The file input.txt is formatted as follows:
+
 First line: strictly positive 32-bit integer s, size of grid [grid is a square of size sxs]
+
 Second line: strictly positive 32-bit integer n, number of cars
+
 Third line: strictly positive 32-bit integer o, number of obstacles
+
 Next o lines: 32-bit integer x, 32-bit integer y, denoting the location of obstacles
+
 Next n lines: 32-bit integer x, 32-bit integer y, denoting the start location of each car
+
 Next n lines: 32-bit integer x, 32-bit integer y, denoting the terminal location of each car
 
 ## Output file:
