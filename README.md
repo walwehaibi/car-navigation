@@ -29,4 +29,4 @@ The file output.txt is formatted as follows:
 n lines: 32-bit integer, denoting the mean money earned in simulation for each car, integer result of floor operation.
 
 ## Goal:
-To arrive to end location while saving the most money over time with the greatest likelihood.
+To make the most money over time with the greatest likelihood.
