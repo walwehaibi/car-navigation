@@ -3,7 +3,9 @@ This program uses value iteration (MDPs) to have autonomous cars go from a start
 
 ## Problem Description:
 - The city is represented with a grid as follows (the size of the grid is supplied as an input to the program):
-![city_grid.png](city_grid.png){:height="36px" }
+
+    ![city_grid.png](city_grid.png)
+
 - Autonomous cars navigating throughout the grid.
 - Cars can move north, south, east, or west.
 - There will be some obstacles such as building and road closures (given as input to the program). 
