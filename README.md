@@ -2,8 +2,8 @@
 This program uses value iteration (MDPs) to have autonomous cars go from a start position to an end position in a grid with minimal money spent.
 
 ## Problem Description:
-- Autonomous cars navigating throughout a grid
-- Cars can move north, south, east, or west
+- Autonomous cars navigating throughout a grid.
+- Cars can move north, south, east, or west.
 - There will be some obstacles such as building and road closures (given as input to the program). 
 - If a car crashes into an obstacle, the car has to pay $100.
 - A car spends $1 for gas for every move.
@@ -13,16 +13,16 @@ This program uses value iteration (MDPs) to have autonomous cars go from a start
 
 ## Input file:
 The file input.txt is formatted as follows:
-  - First line: strictly positive 32-bit integer s, size of grid [grid is a square of size sxs]
-  - Second line: strictly positive 32-bit integer n, number of cars
-  - Third line: strictly positive 32-bit integer o, number of obstacles
-  - Next o lines: 32-bit integer x, 32-bit integer y, denoting the location of obstacles
-  - Next n lines: 32-bit integer x, 32-bit integer y, denoting the start location of each car
-  - Next n lines: 32-bit integer x, 32-bit integer y, denoting the terminal location of each car
+  - First line: strictly positive 32-bit integer s, size of grid [grid is a square of size sxs].
+  - Second line: strictly positive 32-bit integer n, number of cars.
+  - Third line: strictly positive 32-bit integer o, number of obstacles.
+  - Next o lines: 32-bit integer x, 32-bit integer y, denoting the location of obstacles.
+  - Next n lines: 32-bit integer x, 32-bit integer y, denoting the start location of each car.
+  - Next n lines: 32-bit integer x, 32-bit integer y, denoting the terminal location of each car.
 
 ## Output file:
 The file output.txt is formatted as follows:
-n lines: 32-bit integer, denoting the mean money earned in simulation for each car, integer result of floor operation
+n lines: 32-bit integer, denoting the mean money earned in simulation for each car, integer result of floor operation.
 
 ## Goal:
 To make the most money over time with the greatest likelihood.
