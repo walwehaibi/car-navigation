@@ -1,8 +1,10 @@
 # car-navigation
-This program uses value iteration (MDPs) to have autonomous cars go from a start position to an end position in a grid with minimal money spent.
+This program uses value iteration (MDPs) to have autonomous cars go from a start position to an end position in a city with minimal money spent.
 
 ## Problem Description:
-- Autonomous cars navigating throughout a grid.
+- The city is represented with a grid as follows (the size of the grid is supplied as an input to the program):
+![city_grid.png](city_grid.png?raw=true "City Grid")
+- Autonomous cars navigating throughout the grid.
 - Cars can move north, south, east, or west.
 - There will be some obstacles such as building and road closures (given as input to the program). 
 - If a car crashes into an obstacle, the car has to pay $100.
